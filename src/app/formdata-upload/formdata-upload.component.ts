@@ -61,7 +61,7 @@ export class FormdataUploadComponent {
 
 
   clearFile() {
-    this.form.get('avatar').setValue(null);
+    this.form.get('imagemBinary').setValue(null);
     this.fileInput.nativeElement.value = '';
   }
 
