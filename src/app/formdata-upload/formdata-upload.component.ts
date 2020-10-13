@@ -43,7 +43,7 @@ export class FormdataUploadComponent {
     this.loading = true;
     setTimeout(() => {
       // tslint:disable-next-line: max-line-length
-      const token = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlYjcxODBhMi02MjBlLTRlNGMtOWY2Ni01ZTIyOTM1ZWY0ZDkiLCJlbWFpbCI6ImFkbWluQGNvbmRvbXkuY29tLmJyIiwianRpIjoiNTM4NThjNjQtYTczMi00Nzc3LWI5NDgtOTAzM2I0MWJjOWEzIiwiaWF0IjoxNjAyNTE0OTQ0LCJpc0FkbWluIjoiVHJ1ZSIsIm5iZiI6MTYwMjUxNDk0NCwiZXhwIjoxNjAyNTIyMTQ0LCJpc3MiOiJjb25kb215IiwiYXVkIjoiKiJ9.sms_uV1dz9SC4U--GK0dx_VSYYw7h9Fc7ZSoMJHgHog';     
+      const token = 'Token Aqui'; //'Bearer xyz
       const headers = new HttpHeaders()
             .set('Authorization', token);
       let url='https://condomy.herokuapp.com/api/Condominio/dac0cd34-9f0d-430e-8f0e-d7aa6b426b9a/ata';
